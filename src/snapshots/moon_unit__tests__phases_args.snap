@@ -1,0 +1,13 @@
+---
+source: src/lib.rs
+expression: "&[PhaseArgs::build_year().year(2025).build(),\nPhaseArgs::build_by_date().year(2025).month(4).day(25).count(8).build().unwrap(),]"
+---
+[
+  {
+    "year": 2025
+  },
+  {
+    "date": "2025-04-25",
+    "nump": 8
+  }
+]

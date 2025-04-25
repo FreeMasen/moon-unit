@@ -1,0 +1,9 @@
+---
+source: src/lib.rs
+expression: "OneDayArgs::builder().year(2025).month(4).day(25).tz(0.0).lat(0.0).long(0.0).build()"
+---
+{
+  "date": "2025-04-25",
+  "coords": "0.0000,0.0000",
+  "tz": 0.0
+}
